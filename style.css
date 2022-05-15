@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -40,16 +40,16 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 header {
-  background-color: #373b69;
+  background-color: #000000;
   padding: 1.5rem;
 }
 
 header img {
-  height: 60px;
+  height: 85px;
   padding-right: 1rem;
 }
 h1 {
-  font-family: "Lobster", cursive;
+  font-family: "Ubuntu", cursive;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -200,5 +200,3 @@ a {
   margin-left: 20px;
   cursor: pointer;
 }
-
-@media(max-width: 480px){
